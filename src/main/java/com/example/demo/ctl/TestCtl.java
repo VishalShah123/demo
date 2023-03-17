@@ -11,4 +11,9 @@ public class TestCtl {
 		return "Home";
 	}
 
+	@GetMapping("/login")
+	public String login() {
+		return "login";
+	}
+	
 }
