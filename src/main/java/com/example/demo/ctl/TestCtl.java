@@ -16,4 +16,11 @@ public class TestCtl {
 		return "login";
 	}
 	
+	@GetMapping("/registration")
+	public String reg() {
+		return "reg";
+	}
+	
+	
+	
 }
