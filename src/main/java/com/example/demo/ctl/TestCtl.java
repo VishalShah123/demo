@@ -18,9 +18,7 @@ public class TestCtl {
 	
 	@GetMapping("/registration")
 	public String reg() {
-	
-		
-		return "reg";
+		return "registration";
 	}
 	
 	
