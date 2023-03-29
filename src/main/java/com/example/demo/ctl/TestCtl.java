@@ -18,11 +18,17 @@ public class TestCtl {
 	
 	@GetMapping("/registration")
 	public String reg() {
+		return "registration";
+
 	
-		
 		return "reg";
+
 	}
 	
+	@GetMapping("/enquiry")
+	public String enquiry() {
+		return "enquiry";
+	}
 	
 	
 }
