@@ -21,6 +21,10 @@ public class TestCtl {
 		return "registration";
 	}
 	
+	@GetMapping("/enquiry")
+	public String enquiry() {
+		return "enquiry";
+	}
 	
 	
 }
